@@ -1,6 +1,6 @@
-FROM alpine:2.6
+FROM alpine:latest
 
-COPY /pluto.sh /
+COPY pluto.sh /pluto.sh
 
 RUN mkdir /logi && chmod +x ./pluto.sh
 
